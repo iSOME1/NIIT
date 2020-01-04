@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge";charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scrollable=no">
+
+        <title>学习笔记</title>
+
+        <link rel="stylesheet" href="bootstrap.min.css">
+
+        <!-- 
+            [if lt IE 9]>
+            <script src="https://cdn.jsdeliver.net/npm/html5/shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdeliver.net/npm/response.js@1.4.2/dest/response.min.js"></script>
+            <![endif]
+         -->
+
+         <style>
+             
+             /* [class*="col-"]{
+                 padding-top: 15px;
+                 padding-bottom: 15px;
+                 background-color: rgba(86,61,124,.15);
+                 border: 1px solid rgba(86,61,124,.2);
+             } */
+         </style>
+    </head>
+
+    <body>
+        <h1>hello word!</h1>
+        <div class="container">
+            123
+        </div>
+        <div class="container-fluid">
+            321
+        </div>
+        <nav>
+            <del>
+                这是一个导航
+            </del>
+            <abbr title="introduction">intro</abbr>
+        </nav>
+        <p>Alt+Shift+上下键=复制当前行代码至上/下一行</p>
+        <a href="#">hello</a>
+        <hr>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1">col-md-1</div>
+                <div class="col-md-1">col-md-1</div>
+                <div class="col-md-1">col-md-1</div>
+                <div class="col-md-1">col-md-1</div>
+                <div class="col-md-1">col-md-1</div>
+                <div class="col-md-1">col-md-1</div>
+                <div class="col-md-1">col-md-1</div>
+                <div class="col-md-1">col-md-1</div>
+                <div class="col-md-1">col-md-1</div>
+                <div class="col-md-1">col-md-1</div>
+                <div class="col-md-1">col-md-1</div>
+                <div class="col-md-1">col-md-1</div>
+                <div class="col-md-1">col-md-1</div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-8">col-md-8</div>
+                <div class="col-md-4">col-md-4</div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">col-md-6</div>
+                <div class="col-md-6">col-md-6</div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">col-md-4</div>
+                <div class="col-md-4">col-md-4</div>
+                <div class="col-md-4">col-md-4</div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-1">col-xs-1</div>
+                <div class="col-xs-1">col-xs-1</div>
+                <div class="col-xs-1">col-xs-1</div>
+                <div class="col-xs-1">col-xs-1</div>
+                <div class="col-xs-1">col-xs-1</div>
+                <div class="col-xs-1">col-xs-1</div>
+                <div class="col-xs-1">col-xs-1</div>
+                <div class="col-xs-1">col-xs-1</div>
+                <div class="col-xs-1">col-xs-1</div>
+                <div class="col-xs-1">col-xs-1</div>
+                <div class="col-xs-1">col-xs-1</div>
+                <div class="col-xs-1">col-xs-1</div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">col-lg-2</div>
+                <div class="col-lg-2">col-lg-2</div>
+                <div class="col-lg-2">col-lg-2</div>
+                <div class="col-lg-2">col-lg-2</div>
+                <div class="col-lg-2">col-lg-2</div>
+                <div class="col-lg-2">col-lg-2</div>
+                <div class="col-lg-2">col-lg-2</div>
+                <div class="col-lg-2">col-lg-2</div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">col-md-4</div>
+                <div class="col-md-4">col-md-4</div>
+                <div class="col-md-4">col-md-4</div>
+            </div>
+        </div>
+
+        <div class="container-fulid">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4">偏移了4个栅格</div>
+            </div>
+            <div class="row">
+                <div class="col-md-9 col-md-offset-3">偏移了3个栅格</div>
+            </div>
+        </div>
+
+        <div class="row container-fluid">
+            <div class="col-sm-9">
+                第一层占据9个
+                <div class="row">
+                    <div class="col-xs-8 col-sm-6">第二层第一个</div>
+                    <div class="col-xs-4 col-sm-6">第二层第二个</div>
+                </div>
+            </div>
+        </div>
+        <h1>这是大标题<small>这是小标题</small> </h1>
+        <h2>这是H2大标题 <span class="small">这是用small类修饰的小标题</span></h2>
+        <p class="lead h2">
+            Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+        </p>
+        <p class="h2">
+            Cum sociis natoque <mark>penatibus</mark> et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
+        </p>
+        <p class="h2">
+            <del>
+            Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+            </del>
+        </p>
+        <s class="h1">s标签是用来表示没用的文本，比如这一段，也是被横线划掉的</s><br>
+        <ins class="h1">ins标签是用来表示额外插入的文本，文字会被假如下划线</ins><br>
+        <u class="h1">u标签是用来给文字➕下划线的</u><br>
+        <strong class="h1">
+            strong标签用来强调一段文字，即加粗，像这样
+        </strong> <br>
+        <b class="h1">
+            b标签用来高亮单词 不带有着重意味
+        </b>
+        <h1>em竟然是用来表示<em>斜体的！</em></h1>
+        <i class="h1">
+            i标签主要用于发言、技术词汇等
+        </i>
+        <p class="text-left">左对齐</p>
+        <p class="text-center">居中对齐</p>
+        <p class="text-right">右对齐</p>
+        <p class="text-justify">justify</p>
+        <p class="text-nowrap">No Wrap text.</p>
+        <p class="h1 text-lowercase">UPPERCASE</p>
+        <p class="h1 text-uppercase">lowercase</p>
+        <p class="h1 text-capitalize">not capitalized text</p>
+        <abbr title="HyperText Markup Language" class="initialism">HTML</abbr>
+        <address class="h1">
+            <strong>北京</strong>
+        </address><br>
+        <blockquote>
+            <p class="h1">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+            </p>
+            <footer class="h2">
+                Someone famous in <cite>SourceTitle</cite>
+            </footer>
+        </blockquote>
+        <blockquote class="blockquote-reverse">
+            <p class="h1">对blockquote标签用blockqote-reverse类可以设置其右对齐</p>
+            <footer class="h2">我自己写的</footer>
+        </blockquote>   
+        
+        <ul class="list-inline h2">
+            <li>zhu</li>
+            <li>ya</li>
+            <li>nan</li>
+            <li>给ul添加list-inline类可以让li水平排列</li>
+        </ul>
+        <dl class="h1">
+            <dt>描述标题</dt>
+            <dd>
+                dl>dt+dd:dt是标题，dd是对标题的解释
+            </dd>
+        </dl>
+        <dl class="dl-horizontal h1">
+            <dt>水平解释</dt>
+            <dd>给dl添加dl-horizontal类可以将解释内容与标题水平分布</dd>
+        </dl>
+        <code class="h1">
+            &lt;section&gt;code标签种放代码
+        </code>
+        <p class="h1">
+            可以通过&lt;kdb&gt;标签来标记用户通过键盘输入的内容，效果是这样的：按下<kbd><kbd>Ctrl</kbd><kbd>+</kbd><kbd>C</kbd></kbd>来复制
+        </p>
+        <pre class="h1">
+            多行代码使用&lt;pre&gt;标签来展示的，要注意尖括号的转义处理，如下
+            &lt;pre&gt;代码片段&lt;/pre&gt;
+        </pre>
+        <var>y</var>=<var>m</var><var>x</var>+<var>b</var><br>
+        <samp class="h1">这段文字是通过samp标签展示出来的，samp标签是用来标记程序输出的内容的</samp>
+        <table class="table table-hover h1">
+            <tr><td>
+                .table给table基本属性 行分割线
+            </td></tr>
+            <tr><td>.table-hover</td></tr>
+            <tr><td>
+                .table-striped让行条纹状
+            </td></tr>
+            <tr><td>.table-condensed可以让表格更加紧凑，单元格的padding会减半</td></tr>
+        </table>
+        <table class="table table-bordered">
+            <thead>
+                <th>如下状态类可以为行后者单元格设置下述颜色</th>
+            </thead>
+            <tr class="active">
+                <td>.active</td>
+                <td>鼠标悬停时的颜色</td>
+            </tr>
+            <tr class="success">
+                <td>.success</td>
+                <td>成功或positive的颜色</td>
+            </tr>
+            <tr class="info">
+                <td>.info</td>
+                <td>普通的提示信息或动作</td>
+            </tr>
+            <tr class="warning">
+                <td>.warning</td>
+                <td>警告的颜色</td>
+            </tr>
+            <tr class="danger">
+                <td>.danger</td>
+                <td>危险的颜色</td>
+            </tr>
+        </table>
+        <h1>响应式表格-小屏幕中出现水平滚动</h1>
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <th>#</th>
+                    <th>div.table-responsive>table.table创建响应式表格</th>
+                    <th>#</th>
+                </thead>
+                <tr>
+                    <td>div.table-responsive>table.table创建响应式表格</td>
+                    <td>div.table-responsive>table.table创建响应式表格</td>
+                    <td>div.table-responsive>table.table创建响应式表格</td>
+                </tr>
+                <tr>
+                    <td>div.table-responsive>table.table创建响应式表格</td>
+                    <td>div.table-responsive>table.table创建响应式表格</td>
+                    <td>div.table-responsive>table.table创建响应式表格</td>
+                </tr>
+                <tr>
+                    <td>div.table-responsive>table.table创建响应式表格</td>
+                    <td>div.table-responsive>table.table创建响应式表格</td>
+                    <td>div.table-responsive>table.table创建响应式表格</td>
+                </tr>
+            </table>
+        </div>
+
+        <h1>表单</h1>
+        <form action="">
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" name="" id="email" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="pswd">Password</label>
+                <input type="password" name="" id="pswd" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="inputFile">File Input</label>
+                <input type="file" name="" id="inputFile" class="form-control">
+            </div>
+            <p class="help-block">实例块状帮助文字</p>
+            <div class="checkbox"><label for=""><input type="checkbox" name="" id="">Check me out</label></div>
+            <button type="submit" class="btn btn-default">Submit</button>
+
+        </form>
+        <p class="h2">
+            所有设置了.form-control类的input,textarea,select元素，其宽度会被默认设置为100%;用lable和前述空间包裹在.form-group中可以获得最好的排版
+        </p>
+
+        <p class="h2">
+            可以使用.form-inline将表单空间单行显示
+        </p>
+        <form action="" class="form-inline">
+            <div class="form-group">
+                <label for="emailinput" class="sr-only">Email address</label>
+                <input type="email" name="" id="emailinput" class="form-control" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="passwordinput" class="sr-only">Password</label>
+                <input type="password" name="" id="passwordinput" class="form-control" placeholder="Password">
+            </div>
+            <div class="checkbox">
+                <label for="">
+                    <input type="checkbox" name="" id="">Remember me
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+        </form>
+        <form action="" class="form-inline">
+            <div class="form-group">
+                <label for="inputAmount" class="sr-only">Amount(in dollars)</label>
+                <div class="input-group">
+                    <div class="input-group-addon">$</div>
+                    <input type="text" name="" id="inputAmount" class="form-control">
+                    <div class="input-group-addon">.00</div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Transfer Cash</button>
+        </form>
+        <p class="h2">用.form-horizontal类和grid class实现label和input的同行</p>
+        <form action="" class="form-horizontal">
+            <div class="form-group">
+                <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" name="" id="inputEmail" class="form-control" placeholder="Email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputPassword" class="col-sm-2 control-label">Password</label>
+                <div class="col-sm-10">
+                    <input type="password" name="" id="inputPassword" placeholder="Password" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <div class="checkbox">
+                        <label for="">
+                            <input type="checkbox" name="" id="">Remember me
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+            </div>
+        </form>
+        <p class="h1">输入框</p>
+        <input type="text" name="" id="" class="form-control" placeholder="input:text.form-control">
+        <textarea name="" id="" cols="" rows="4" class="form-control">
+            这是一个输入域textarea
+        </textarea>
+        <H1>
+            多选框和单选框
+        </H1>
+        <div class="checkbox h3">
+            <label for="">
+                <input type="checkbox" name="" id="">
+                div.checkbox>label>input:checkbox
+            </label>
+        </div>
+        <div class="checkbox h3 disabled">
+            <label for="">
+                <input type="checkbox" name="" id="" disabled>
+                div.checkbox.disabled>label>input:checkbox disabled
+            </label>
+        </div>
+
+
+        <div class="radio h3">
+            <label for="">
+                <input type="radio" name="a" id="">
+                选项1
+            </label>
+        </div>
+        <div class="radio h3"> 
+            <label for="">
+                <input type="radio" name="a" id="">
+                选项2
+            </label>
+        </div>
+        <div class="radio h3 disabled">
+            <label for="">
+                <input type="radio" name="a" id="" disabled>
+                选项3（不可选）
+            </label>
+        </div>
+        <h2>
+            .checkbox-inline .radio-inline内联单选和多选框
+        </h2>
+        <br>
+        <label for="" class="checkbox-inline h1"><input type="checkbox" name="" id="">1</label>
+        <label for="" class="checkbox-inline h1"><input type="checkbox" name="" id="">2</label>
+        <label for="" class="checkbox-inline h1"><input type="checkbox" name="" id="">3</label>
+        <br>
+        <label for="" class="radio-inline h1"><input type="radio" name="b" id="">1</label>
+        <label for="" class="radio-inline h1"><input type="radio" name="b" id="">2</label>
+        <label for="" class="radio-inline h1"><input type="radio" name="b" id="">3</label>
+
+        <div class="checkbox">
+            <label for="">
+                <input type="checkbox" name="" id="" aria-label="opt1">
+            </label>
+        </div>
+        <div class="radio">
+            <label for="">
+                <input type="radio" name="" id="" aria-label="radio1">
+            </label>
+        </div>
+        <p class="h1">下拉列表select</p>
+        <select name="sel1" id="" class="form-control">
+            <option value="1">1</option>
+            <option value="1">2</option>
+            <option value="1">3</option>
+            <option value="1">4</option>
+            <option value="1">5</option>
+        </select>
+        <select name="" id="" class="form-control" multiple>
+            <option value="">select标签</option>
+            <option value="">加上multiple属性</option>
+            <option value="">可以多选</option>
+            <option value="">像现在这样</option>
+            <option value="">Ctr+点击，试试吧</option>
+        </select>
+        <div class="container">
+            <form action="" class="form-horizontal">
+                <div class="form-group">
+                    <label for="" class="col-sm-2 control-label">Email</label>
+                    <div class="col-sm-10">
+                        <p class="form-control static">
+                            email@example.com
+                        </p>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="" class="col-sm-2 control-label">Password</label>
+                    <div class="col-sm-10">
+                        <input type="password" name="" class="form-control" id="" placeholder="Password">
+                    </div>
+
+                </div>
+            </form>
+        </div>
+        <div class="container-fluid">
+            <form action="" class="form-inline">
+                <div class="form-group">
+                    <label for="" class="sr-only">Email</label>
+                    <p class="form-control-static">email@example.com</p>
+                </div>
+                <div class="form-group">
+                    <label for="" class="sr-only">Password</label>
+                    <input type="password" name="" id="" class="form-control" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-primary">Confirm</button>
+            </form>
+        </div>
+        <input type="text" value="用disabled禁用输入框" class="form-control" disabled>
+        <input type="text" value="用readonly只读" class="form-control" readonly>
+        <input type="text" name="" id="" class="form-control">
+        <span id="helpBlock" class="help-block">这是一段紧跟在input后面的帮助提示文本，可以超过一行</span>
+
+        <div class="form-group has-success">
+            <label for="" class="control-label ">input with success</label>
+            <input type="text" name="" id="" class="form-control">
+        </div>
+        <div class="form-group has-warning">
+            <label for="" class="control-label">input with warning</label>
+            <input type="text" name="" id="" class="form-control">
+        </div>
+        <div class="form-group has-error">
+            <label for="" class="control-label">input with error</label>
+            <input type="text" name="" id="" class="form-control">
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <script src="jquery-3.3.1.min.js"></script>
+        <script src="bootstrap.min.js"></script>
+    </body>
+</html>
