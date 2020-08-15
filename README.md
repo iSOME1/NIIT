@@ -1,3 +1,1 @@
-# NIIT
-NIIT HOMEWORK
-this folder is used for NIIT homework
+a repo used for learning bootsrap
